@@ -4,8 +4,8 @@ A responsive website for a fictional technology conference bringing young people
 
 ## Live Demo
 
-* **Live Website:** Add your GitHub Pages URL here.
-* **Repository:** Add your GitHub repository URL here.
+* **Live Website:** https://saintthedevhq.github.io/youthtech-summit/
+* **Repository:**  https://github.com/SaintTheDevHQ/youthtech-summit
 
 ## Built With
 
@@ -58,5 +58,4 @@ The YouthTech Summit 2026 content and branding are fictional and created for edu
 
 Abdullahi Abba
 
-* GitHub: Add your GitHub profile URL here
-https://github.com/SaintTheDevHQ
+* GitHub:https://github.com/SaintTheDevHQ
