@@ -38,6 +38,7 @@ a {
 }
 
 .menu-toggle {
+  display: block;
   border: none;
   background: none;
   font-size: 28px;
@@ -107,6 +108,7 @@ a {
   margin-bottom: 12px;
 }
 
+
 .program-list {
   display: flex;
   flex-direction: column;
@@ -114,11 +116,30 @@ a {
   margin-top: 24px;
 }
 
+@media (min-width: 1024px) {
+  .program-list {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .program-card {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+
 .program-card {
-  padding: 20px;
+  padding: 28px 20px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #3b3e45;
   border: 1px solid #555;
 }
+
 
 .program-card span {
   font-size: 32px;
@@ -142,17 +163,25 @@ a {
   margin-top: 24px;
 }
 
+
 /* 6. Footer */
 .site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 24px 20px;
   text-align: center;
   border-top: 1px solid #ddd;
+  gap: 12px;
 }
 
 .site-footer p {
+  max-width: 600px;
   font-size: 14px;
-  margin-top: 8px;
+  margin: 0 auto;
 }
+
 
 /* Desktop navigation */
 @media (min-width: 768px) {
@@ -250,18 +279,26 @@ a {
 }
 
 
+
 .speaker-card {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 20px;
   text-align: left;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  background-color: #fff;
 }
+
 
 .speaker-card img {
   width: 110px;
   height: 110px;
   object-fit: cover;
   background-color: #eee;
+  border-radius: 12px;
 }
 
 .speaker-info h3 {
@@ -381,3 +418,4 @@ a {
     margin: 0 auto 40px;
   }
 }
+
