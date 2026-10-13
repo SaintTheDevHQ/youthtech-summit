@@ -20,25 +20,25 @@ const speakers = [
     name: 'Sahalu Aminu Koko',
     role: 'Software Engineer',
     bio: 'Builds digital products and encourages young people to learn web development.',
-    image: 'images/Abba.jpeg',
+    image: 'images/sahl.png',
   },
   {
-    name: 'Abdulqudri Abdullahi',
+    name: 'Kabiru Aminu',
     role: 'AI Researcher',
     bio: 'Explores how artificial intelligence can solve real-world problems.',
-    image: 'images/Abba.jpeg',
+    image: 'images/kb.png',
   },
   {
     name: 'Abdullahi Abba',
     role: 'Tech Entrepreneur',
     bio: 'Helps young innovators turn their ideas into useful digital solutions.',
-    image: 'images/Abba.jpeg',
+    image: 'images/Abba.png',
   },
   {
-    name: 'Idris Mamman G',
+    name: 'Marcel chide',
     role: 'Cybersecurity Specialist',
     bio: 'Teaches digital safety and ways to protect online information.',
-    image: 'images/Abba.jpeg',
+    image: 'images/marcel.png',
   },
 ];
 
